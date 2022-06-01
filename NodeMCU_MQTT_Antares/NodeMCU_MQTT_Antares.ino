@@ -1,10 +1,10 @@
 //antares
 #include <AntaresESP8266MQTT.h>     // Inisiasi library MQTT Antares
-#define ACCESSKEY "eaa004f588aae95e:3a0abb142e3eafdd" //define accesskey
-#define WIFISSID "rime"//define SSID name
-#define PASSWORD "senyumdulu"     // Ganti dengan password WiFi anda
+#define ACCESSKEY "your access key" //define accesskey
+#define WIFISSID "your-wifi-ssid-name"//define SSID name
+#define PASSWORD "your-ssid-password"     // Ganti dengan password WiFi anda
 #define projectName "NodeMCU_MQTT" //define project name
-#define deviceName "Sensor"    // Ganti dengan device Antares yang telah dibuat
+#define deviceName "your-device-name"    // Ganti dengan device Antares yang telah dibuat
 AntaresESP8266MQTT antares(ACCESSKEY);    // Buat objek antares
 
 //water sensor
